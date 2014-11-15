@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53906D6D-FB6A-4021-A045-3E77A2A10F0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BouncyShooter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF0C8A544FAFB1387FEDE615E8C32627E69D4735</key>
+		<string>https://github.com/sasoh/BouncyShooter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BouncyShooter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF0C8A544FAFB1387FEDE615E8C32627E69D4735</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sasoh/BouncyShooter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF0C8A544FAFB1387FEDE615E8C32627E69D4735</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF0C8A544FAFB1387FEDE615E8C32627E69D4735</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BouncyShooter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
