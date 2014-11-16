@@ -10,4 +10,25 @@
 
 @implementation BSCGameObject
 
+- (void)processCollisionWith:(SKPhysicsBody *)body
+{
+    
+    SKPhysicsBody *physicsBody = [self physicsBody];
+    int category = [physicsBody categoryBitMask];
+    
+    int targetCategory = [body categoryBitMask];
+    
+    if ( category == CATEGORY_ASTEROID ) {
+        if ( targetCategory == CATEGORY_ROCKET ) {
+            [_delegate didDestroyAsteroid];
+            
+            // destroy asteroid
+            [self removeFromParent];
+        } else if ( targetCategory == CATEGORY_BOUNDARY ) {
+            NSLog(@"asteroid collided with wall");
+        }
+    }
+    
+}
+
 @end

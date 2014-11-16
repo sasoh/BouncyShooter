@@ -7,14 +7,17 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "BSCGameObject.h"
 
-@interface GameScene : SKScene {
+@interface GameScene : SKScene <SKPhysicsContactDelegate, BSCGameObjectDelegate> {
     SKSpriteNode *_uiNode;
     SKSpriteNode *_tappableNode;
     SKSpriteNode *_playgroundNode;
     SKLabelNode *_startLabelNode;
+    SKLabelNode *_scoreLabelNode;
     
     BOOL _started;
+    int _score;
 }
 
 @end
